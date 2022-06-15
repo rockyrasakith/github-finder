@@ -1,10 +1,12 @@
 import React from 'react'
+import UserResults from '../components/users/UserResults'
 
 function Home() {
   return (
-    <div>
-      <h1 className="text-6xl">Welcome to GitHub Finder</h1>
-    </div>
+    <>
+      {/* Search Component will go Here */}
+      <UserResults />
+    </>
   )
 }
 

@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 
 function NavBar({ title }) {
   return (
-    // Inclue classes from Tailwind css and daisy UI for the navbar (nice!!)
+    // Include classes from Tailwind css and daisy UI for the navbar (nice!!)
     <nav className="navbar mb-12 shadow-lg bg-neutral text-neutral-content">
       <div className="container mx-auto">
         <div className="flex-none px-2 mx-2">
